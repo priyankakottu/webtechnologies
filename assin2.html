@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display characters of the specified unicode numbers.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var res = String.fromCharCode(72, 69, 76, 76, 79);
+  document.getElementById("demo").innerHTML = res;
+}
+</script>
+
+</body>
+</html>
